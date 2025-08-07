@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Text and Background</title>
 
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+
+    
+    <nav class="bg-white p-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a id="navStory" href="#" class="text-xl font-bold text-gray-800 hover:text-blue-500 transition-colors">Home page</a>
+            <div class="space-x-4">
+                <a id="navArcade" href="#" class="text-gray-600 hover:text-blue-500 transition-colors">My project</a>
+            </div>
+        </div>
+    </nav>
+
+  
+    <div id="storyPage" class="mx-auto max-w-4xl my-8 p-4 bg-white rounded-lg shadow-xl">
+
+       
+        <div id="topSection" class="bg-gray-100 p-6 rounded-t-lg">
+           
+        </div>
+        <div id="middleSection" class="bg-blue-300 p-6">
+        </div>
+        
+        <div id="bottomSection" class="bg-amber-600 p-6 rounded-b-lg">
+        </div>
+    </div>
+
+    <
+    <div id="arcadePage" class="hidden mx-auto max-w-4xl my-8 p-4 bg-white rounded-lg shadow-xl text-center">
+        <h2 class="text-3xl font-bold mb-4">Arcade Game</h2>
+        <img src="Screenshot 2025-08-01 023926.png" alt="Arcade Connect" class="mx-auto max-w-full rounded-md shadow-lg">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
